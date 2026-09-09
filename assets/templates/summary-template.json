@@ -1,0 +1,37 @@
+{
+  "round": "e2e-results-<日期>",
+  "date": "<日期>",
+  "environmentMode": "local | network（本地环境/网络测试环境，推断依据见环境说明）",
+  "versions": {
+    "frontend": "<commit 或构建号>",
+    "backend": "<commit 或构建号>"
+  },
+  "totals": {
+    "total": 0,
+    "pass": 0,
+    "fail": 0,
+    "flaky": 0,
+    "blocked": 0,
+    "skipped": 0,
+    "interrupted": 0
+  },
+  "cases": [
+    {
+      "id": "TC-FUNC-ORD-LIST-001",
+      "title": "<用例标题>",
+      "status": "PASS | FAIL | FLAKY | BLOCKED | SKIPPED | INTERRUPTED",
+      "priority": "P0",
+      "module": "ORD-LIST",
+      "target": "<被测元素>",
+      "bugs": ["BUG-<前缀>NNN"],
+      "account": "<账号名（角色语义，凭据脱敏）>",
+      "durationSec": 0,
+      "environmentMode": "local | network",
+      "health": {
+        "flakyCount": 0,
+        "lastRuns": ["<轮次>:<结果>"],
+        "totalBugsFound": 0
+      }
+    }
+  ]
+}
