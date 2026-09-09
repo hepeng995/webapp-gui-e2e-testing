@@ -1,16 +1,16 @@
 # webapp-gui-e2e-testing（Web GUI E2E 测试通用 Skill）
 
-用 ZCode 内置浏览器对任意 Web 应用做黑盒 GUI/E2E/验收/回归/探索性测试，产出带证据的测试报告。版本与变更记录以 SKILL.md §9 为准。
+用 Agent 内置浏览器（当前 Agent 工具自带，如 ZCode）对任意 Web 应用做黑盒 GUI/E2E/验收/回归/探索性测试，产出带证据的测试报告。版本与变更记录以 SKILL.md §9 为准。
 
 ## 安装
 
-把本文件夹整体复制到用户级 skills 目录（或解压本 zip 到该目录）：
+把本文件夹整体复制到所用 Agent 工具的用户级 skills 目录（或 git clone 到该目录）。以 ZCode 为例：
 
 ```
 %USERPROFILE%\.zcode\skills\webapp-gui-e2e-testing\（Windows；类 Unix 为 ~/.zcode/skills/webapp-gui-e2e-testing/）
 ```
 
-重开 ZCode 会话后生效。
+重开 Agent 会话后生效。
 
 ## 使用
 
