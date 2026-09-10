@@ -4,13 +4,17 @@
 
 ## 安装
 
-把本文件夹整体复制到所用 Agent 工具的用户级 skills 目录（或 git clone 到该目录）。以 ZCode 为例：
+方式一（推荐，从 GitHub 克隆）：克隆到所用 Agent 工具的用户级 skills 目录——
 
-```
-%USERPROFILE%\.zcode\skills\webapp-gui-e2e-testing\（Windows；类 Unix 为 ~/.zcode/skills/webapp-gui-e2e-testing/）
+```bash
+git clone https://github.com/hepeng995/webapp-gui-e2e-testing.git <skills目录>/webapp-gui-e2e-testing
 ```
 
-重开 Agent 会话后生效。
+skills 目录按所用工具的约定，例如：ZCode 为 `~/.zcode/skills/`、Claude Code 为 `~/.claude/skills/`（Windows 下 `~` 即 `%USERPROFILE%`）。
+
+方式二（手动复制）：下载 [main.zip](https://github.com/hepeng995/webapp-gui-e2e-testing/archive/refs/heads/main.zip) 解压，把 `webapp-gui-e2e-testing` 文件夹整体放入所用工具的 skills 目录。
+
+安装后重开 Agent 会话生效。共 19 个文件（SKILL.md + README + 10 份 references + 7 份模板）；要求运行环境具备内置浏览器能力，测试产出默认中文。
 
 ## 使用
 
